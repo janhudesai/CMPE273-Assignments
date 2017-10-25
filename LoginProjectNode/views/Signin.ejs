@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+
+<body background="manage-images.png">
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-4 col-md-4 col-lg-4 col-sm-offset-1 col-md-offset-1 col-lg-offset-1" style="margin-top: 5%;">
+			<div class="panel panel-default">
+				<div class="panel-heading"> Login page
+				</div>
+					<div class="panel-body">
+						<form class="form-horizontol" method="post" action="afterlogin">
+							<div class="form-group">
+								<label class="col-sm-6 col-md-6 col-lg-6"> Username </label>
+								<div class="col-sm-6 col-md-6 col-lg-6">
+								 	<input type="text" class="form-control" name="username" id="username">
+								</div>
+
+							</div>
+							<div class="form-group">
+							   <label class="col-sm-6 col-md-6 col-lg-6"> Password </label> 
+							   <div class = "col-sm-6 col-md-6 col-lg-6">
+							     <input type="password" class="form-control" name="password" id="password">
+							   </div>  
+							   
+							</div>
+							<div class="form-group">
+							 <div class="col-sm-offset-4 col-md-offset-4 col-lg-offset-4">
+							 	<button type="submit" class="btn btn-primary"> sign in </button>
+							 </div>
+							</div>
+						</form>
+					</div>
+					<div class="panel panel-footer"> New User? Please sign up here 
+					<a href="signup">sign up </a>
+					</div>	
+           </div>
+	   </div>
+	</div>
+</div>
+</body>
+</html>

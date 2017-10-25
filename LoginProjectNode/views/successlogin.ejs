@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Successful Login</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body background="manage-images.png">
+    <h1>All Users in Database</h1>
+    <div class="col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+	       <% for(var i in data) 
+	            {                     
+            %>
+           		    <p><strong>username: </strong><%= data[i].username %></p>
+                	<p><strong>Password: </strong><%= data[i].password %></p>
+                	<p><strong>First Name: </strong><%= data[i].fname %></p>
+                	<p><strong>Last Name: </strong><%= data[i].lname %></p>
+                	<p><strong>Gender: </strong><%= data[i].gender %></p>
+                	<p><strong>Date Of Birth: </strong><%= data[i].dob %></p>
+            		<br>       
+           <% 
+	            }  
+	       %>
+	</div>
+  </body>
+</html>
